@@ -1,0 +1,18 @@
+import java.io.*;
+class prgl
+{
+public static void main(String args[])throws IOException
+{
+String s1.s2:
+int m,n:
+DataInputStream in=new DataInputStream(System.in);
+System.out.print("Enter The String:");
+sl=in.readLine();
+System.out.print("Enter The Starting Position:"); 
+n=Integer.parseInt(in.readLine()); 
+System.out.print("Enter The Ending Position:"); 
+m=Integer.parseInt(in.readLine());
+s2=s1.substring(n,m); 
+System.out.println("Extracted String:"+s2);
+}
+}
